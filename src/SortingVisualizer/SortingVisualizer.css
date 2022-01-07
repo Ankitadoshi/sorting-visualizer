@@ -1,0 +1,39 @@
+.toolbar {
+  background-color: #2a5071;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+}
+.section {
+  width: 25%;
+}
+.toolbar button {
+  border: none;
+  background-color: #2a5071;
+  color: #fff;
+  font-size: 16px;
+}
+.toolbar button:hover {
+  color: #c2b224;
+  cursor: pointer;
+}
+.separator {
+  height: 60%;
+  width: 2px;
+  background-color: #5dc0d1;
+}
+.toolbar .section .sortBtn {
+  border-right: 2px solid #f3f3e1;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.vBar {
+  width: 10px;
+  border: 1px solid white;
+  background-color: rgb(47, 110, 110);
+}
